@@ -56,15 +56,16 @@ return require('packer').startup(function(use)
         end
     }
 
-    -- hop.nvim
+    --hop.vim - smoka7
     use {
-        'phaazon/hop.nvim',
-        branch = 'v2', -- optional but strongly recommended
+        'smoka7/hop.nvim',
+        tag = '*', -- optional but strongly recommended
         config = function()
             -- you can configure Hop the way you like here; see :h hop-config
             require 'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
         end
     }
+
 
     -- -- nvim tree
     -- use {
